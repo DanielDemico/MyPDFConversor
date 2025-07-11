@@ -13,6 +13,7 @@ import { Analytics } from "@vercel/analytics/next"
 function App(): React.ReactNode {
   return (
     <HashRouter>
+      <Analytics/>
       <ScrollToTop />
       <div className="flex flex-col min-h-screen font-sans text-slate-800">
         <Header />
