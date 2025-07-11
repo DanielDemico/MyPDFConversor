@@ -9,12 +9,14 @@ import ContactPage from './pages/ContactPage';
 import PrivacyPolicyPage from './pages/PrivacyPolicyPage';
 import ScrollToTop from './components/ScrollToTop';
 import { Analytics } from "@vercel/analytics/react";
+import AdBanner from './components/AdBanner';
 
 function App(): React.ReactNode {
   return (
     <HashRouter>
       <Analytics/>
       <ScrollToTop />
+      <AdBanner />
       <div className="flex flex-col min-h-screen font-sans text-slate-800">
         <Header />
         <main className="flex-grow">
